@@ -1,0 +1,32 @@
+- difference :
+	1. capital
+	2. order
+- ideas
+	1. important to respect certain rules & good practices
+	2. need to keep good testability, maintainability and clarity
+	3. need to define interfaces and the architecture clarily
+	4. use some tools for checking the code report such as LDRA
+	5. code review, training and communication between developers
+	6. add the check function inside the IDE, ex. CCS can do the job 
+	as LDRA and advice the user for good practices
+	
+M3 :
+interruption	
+race condition with the motor's PWM, encoder (increase the turns and steps by ISR) and I2C communication with the by the compass
+the interruption is an important hazard,
+
+- lack of validation test
+- no code review
+- overconfidence
+- cargo cult programming : reuse code without understanding it
+- not synchronized operator interface : race condition
+- flag variable incrementation causes arithemtic overflow
+- choice of language - not the primary cause 
+
+difference between reuse code and COTS. 
+- reuse code is copy from internet without understanding the code
+- COTS is bought from supplier, and need to clearify the responsibility in contract.
+
+
+the git hub link
+https://github.com/Wen-YANG/MSP430Robot.git
