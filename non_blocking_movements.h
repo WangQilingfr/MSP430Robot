@@ -25,4 +25,6 @@ uint8_t nb_spin_steps(int8_t spinDirection, uint8_t speedRobot, uint16_t set_tur
  */
 uint8_t check_stop_steps();
 
+uint8_t nb_spin_bearing (int8_t spinDirection, uint8_t speedRobot, uint16_t target_bearing);
+uint8_t check_stop_bearing();
 #endif
